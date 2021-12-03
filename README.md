@@ -11,3 +11,4 @@
 1. [CodeNeRF](https://github.com/laphisboy/ml-papers/blob/main/notes/CodeNeRF)
 
 ## Others
+1. [CAMPARI](https://github.com/laphisboy/ml-papers/blob/main/notes/CAMPARI)
