@@ -1,13 +1,13 @@
 # ML Papers
 ## Table of contents
 
-1. [NeRF Study](#NeRF_Stury)
+1. [NeRF_Study](#NeRF_Stury)
 1. [Seminar](#Seminar)
 1. [Others](#Others)
 
-## NeRF Study
+## NeRF_Study
 
 ## Seminar
-1. [CodeNeRF]
+1. [CodeNeRF](https://github.com/laphisboy/ml-papers/blob/main/notes/CodeNeRF)
 
 ## Others
