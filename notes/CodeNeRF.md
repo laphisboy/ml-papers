@@ -10,8 +10,8 @@ Can use trained model on single input image with unknown camera pose (figure rig
 
 #### Figures:
 <p float="left">
-  <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/CodeNeRF_fig4.PNG" heigth="500">
-  <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/CodeNeRF_fig10.PNG" heigth="500">
+  <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/CodeNeRF_fig4.PNG" heigth="100">
+  <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/CodeNeRF_fig10.PNG" heigth="100">
 </p>
 
 #Seminar #NeRF
