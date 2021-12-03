@@ -8,7 +8,7 @@
 ## NeRF_Study
 
 ## Seminar
-1. [CodeNeRF](https://github.com/laphisboy/ml-papers/blob/main/notes/CodeNeRF)
+1. [CodeNeRF](https://github.com/laphisboy/ml-papers/blob/main/notes/CodeNeRF.md)
 
 ## Others
-1. [CAMPARI](https://github.com/laphisboy/ml-papers/blob/main/notes/CAMPARI)
+1. [CAMPARI](https://github.com/laphisboy/ml-papers/blob/main/notes/CAMPARI.md)
