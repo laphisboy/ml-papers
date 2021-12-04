@@ -13,3 +13,4 @@
 ## Others
 ### NeRF
 1. [CAMPARI](https://github.com/laphisboy/ml-papers/blob/main/notes/CAMPARI.md)
+1. [GIRAFFE](https://github.com/laphisboy/ml-papers/blob/main/notes/GIRAFFE.md)
