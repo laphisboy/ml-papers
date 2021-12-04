@@ -11,6 +11,12 @@
 1. [CodeNeRF](https://github.com/laphisboy/ml-papers/blob/main/notes/CodeNeRF.md)
 
 ## Others
+
+### 3D
+1. [Differentiable Volumentric Rendering](https://github.com/laphisboy/ml-papers/blob/main/notes/DVR.md)
+1. [Scene Representation Networks](https://github.com/laphisboy/ml-papers/blob/main/notes/SRN.md)
+
+
 ### NeRF
 1. [GRAF](https://github.com/laphisboy/ml-papers/blob/main/notes/GRAF.md)
 1. [GIRAFFE](https://github.com/laphisboy/ml-papers/blob/main/notes/GIRAFFE.md)
