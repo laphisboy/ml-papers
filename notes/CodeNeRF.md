@@ -16,4 +16,4 @@ NeRF, One-shot Reconstruction, Shape and Texture Disentanglement, Camera Pose Op
   <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/CodeNeRF_fig10.PNG" height="400">
 </p>
 
-#Seminar #NeRF
+#Seminar #3D #NeRF
