@@ -20,4 +20,5 @@ NeRF, Generative Neural Feature Fields, Multi-Object Scene, Disentangling Entiti
   <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/GIRAFFE_fig5.PNG" height="400">
 </p>
 
-#Others #NeRF
+#Others #3D #NeRF
+ 
