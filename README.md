@@ -5,12 +5,6 @@
 1. [NeRF](#NeRF)
 1. [GAN](#GAN)
 
-## NeRF_Study
-
-## Seminar
-
-## Others
-
 ## 3D
 1. [Differentiable Volumentric Rendering](https://github.com/laphisboy/ml-papers/blob/main/notes/DVR.md)
 1. [Scene Representation Networks](https://github.com/laphisboy/ml-papers/blob/main/notes/SRN.md)
