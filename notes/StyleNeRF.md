@@ -1,20 +1,24 @@
 # StyleNeRF
 https://arxiv.org/abs/2110.08985
-### NeRF + Compositional 3D Scene Representation + Generative Neural Feature Fields to 2D Neural Rendering 
-Generate N generative feature fields for each entity including the background --> Posed feature fiel''
+### NeRF++ + Mapping Network + Camera Predictor
+To increase rate if 3D consistent image synthesis, volume rendering - or 2D Aggregation - is done earlier,
+but aggregates to a feature map which is upsampled with MLP and reduced to RGB output.
 
 ### Keywords:
-NeRF, Generative Neural Feature Fields, Multi-Object Scene, Disentangling Entities, Composition Operator, 2D Neural Rendering, Controllable Scene
+NeRF++, 2D Aggregation, Mapping Network, Camera Predictor, NeRF Path Regularization
 
 ### Notes:
-- Realistically, is it applicable to more complex scenes when generating individ=
+- Viewing direction input in the middle of NeRF has been removed - but camera pose is inputted at the beginning
+- Why is mapping network necessary? Not clearly explained...?
+- Generated images not consistent with different camera poses = not well disentangled ... because camera pose is inputted at the beginning?
+- Progressive growing of generator by changing original layer to upsampling layer.
+- NeRF Path Regularizer to encourage 3D consistent image synthesis of StyleNeRF output just as an original NeRF would generate. 
 
 ### Figures:
 <p float="left">
-  <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/StyleNeRF_fig1.PNG" height="400">
-  <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/GIRAFFE_fig3.PNG" height="400">
-  <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/GIRAFFE_fig5.PNG" height="400">
-</p>
+  <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/StyleNeRF_fig3.PNG" height="400">
+  <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/StyleNeRF_fig9.PNG" height="400">
+=</p>
 
 #Others #3D #NeRF
  
