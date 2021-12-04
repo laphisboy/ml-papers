@@ -31,4 +31,4 @@ Normal Loss encourages smooth surfaces of 3D objects.
   <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/DVS_fig7.PNG" height="400">
 </p>
 
-#Others #NeRF
+#Others #3D
