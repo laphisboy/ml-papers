@@ -18,7 +18,7 @@ NeRF++, 2D Aggregation, Mapping Network, Camera Predictor, NeRF Path Regularizat
 <p float="left">
   <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/StyleNeRF_fig3.PNG" height="400">
   <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/StyleNeRF_fig9.PNG" height="400">
-=</p>
+</p>
 
 #Others #3D #NeRF
  
