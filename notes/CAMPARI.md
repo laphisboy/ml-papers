@@ -23,4 +23,4 @@ NeRF, Camera Generator, Foreground/Background Decomposition, Foreground/Backgrou
 
 </p>
 
-#Others #NeRF
+#Others #3D #NeRF
