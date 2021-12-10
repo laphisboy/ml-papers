@@ -1,23 +1,23 @@
 # SemanticStyleGAN
-https://m-niemeyer.github.io/project-pages/giraffe/index.html
+https://semanticstylegan.github.io/
 
-### NeRF + Compositional 3D Scene Representation + Generative Neural Feature Fields to 2D Neural Rendering 
-Generate N generative feature fields for each entity including the background --> Posed feature fields --> Weighted summation --> Volume rendering for feature fields --> 2D neural rendering
+### Local Generators (StyleGAN2's) + Fusion and Rendered for RGB Image and Semantic Segmentation Mask
+A local generator is responsible for generating 1 class of the semantic segmentation mask (eyes, nose, mouth...),   
+Generated feature map for all classes is fused and rendered for RGB Image,  
+where the discriminator compares with output semantic segmantation mask to tell apart real or fake.
 
 ### Keywords:
-NeRF, Generative Neural Feature Fields, Multi-Object Scene, Disentangling Entities, Composition Operator, 2D Neural Rendering, Controllable Scene
+StyleGAN2, Local Generator, Render Net, Fusion, Restyle-psp Encoder, Pixel Preservation
 
 ### Notes:
-- Realistically, is it applicable to more complex scenes when generating individual feature fields for each entitiy and object poses, especially when we want to control the scene - move and rotate objects?
-- The discriminator only checks whether individual images look realistic or not = cannot have smooth interpolations for video generation / different view points / object translation and rotation.
-- Synthesized background seems to fill in obstructed areas - by foreground entities - somewhat better than other methods.
-- But, I think it is unique that this work can add and remove entities placed on top of the background.
+- Requiring dataset with semantic segmentation mask may be its limitation,  
+- But hints possibility of generalizing semantic segmentation / or controlled generation of eyes, nose, etc on other datasets with different style but similar structure.  
 
 ### Figures:
 <p float="left">
-  <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/GIRAFFE_fig1.PNG" height="400">
-  <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/GIRAFFE_fig3.PNG" height="400">
-  <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/GIRAFFE_fig5.PNG" height="400">
+  <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/SemanticStyleGAN_fig2.PNG" height="400">
+  <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/SemanticStyleGAN_fig3.PNG" height="400">
+  <img src="https://github.com/laphisboy/ml-papers/blob/main/figures/SemanticStyleGAN_fig15.PNG" height="400">
 </p>
 
 #Others #GAN
